@@ -1,0 +1,55 @@
+.form-control {
+    width: 500px;
+}
+
+@media (max-width: 545px) {
+    .form-control {
+        width: 100%;
+    }
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .form-control input,
+    .form-control textarea {
+        width: 80%;
+        background: #fcfcfc;
+        border: 1px solid silver;
+        border-radius: 5px;
+        padding: 15px 20px;
+        margin-top: 15px;
+        font-size: 14px;
+        color: #333;
+    }
+}
+
+.form-control textarea {
+    height: 200px;
+    resize: none;
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-weight: 400;*/
+}
+
+.form-control .btn {
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 0;
+    background: #ed6809;
+}
+
+.form-control .error {
+    color: #ff5644;
+    font-weight: 600;
+    margin-top: 10px;
+}
